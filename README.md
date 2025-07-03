@@ -41,6 +41,26 @@ Problem Statement: Write a Python program that:
 1.   Uses a for loop to iterate over numbers from 1 to 50.
 2.   Calculates the sum of all integers in this range.
 3.   Displays the final sum.
-4.   Output:
-5.   ![Screenshot 2025-07-03 155424](https://github.com/user-attachments/assets/89684c60-4579-49d2-9dff-52c41d886574)
+4.   Initialize the Sum:
+
+                     sum = 0
+
+     A variable sum is initialized to 0. This will store the total as numbers are added.
+
+     Loop Through Numbers 1 to 50:
+
+                     for i in range(1, 51):     
+                     sum = sum + i
+ 
+     A for loop runs with i taking values from 1 to 50 (inclusive).
+
+     On each iteration, the value of i is added to sum.
+
+     Print the Result:
+
+                     print('The sum of numbers from 1 to 50 is:', sum)
+
+     After the loop ends, the final total is printed.
+6.   Output:
+7.   ![Screenshot 2025-07-03 155424](https://github.com/user-attachments/assets/89684c60-4579-49d2-9dff-52c41d886574)
 
