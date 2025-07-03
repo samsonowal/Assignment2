@@ -13,7 +13,7 @@ Problem Statement:  Write a Python program that:
 
     The input is converted from a string to an integer using int().
 
-Even or Odd Check:
+    Even or Odd Check:
 
               if x % 2 == 0:
 
@@ -21,7 +21,7 @@ Even or Odd Check:
 
     If the remainder is 0, the number is even.
 
-Conditional Output:
+    Conditional Output:
 
                   print(x, "is an even number.")
 
